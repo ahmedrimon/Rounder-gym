@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@font-face {
+    font-family: Miama;
+    src: url(../fonts/Miama.ttf);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bg-gradient {
+    background-image: linear-gradient(black, #777777);
+}
+
 .container-nav{
-    /* border: 1px solid orangered; */
     display: flex;
     justify-content: space-between;
     max-width: 1060px;
@@ -28,7 +42,6 @@
 .individual-list-button {
     background-color: #E6533C;
     border-radius: 13px;
-    /* padding: 7px; */
     padding: 0 14px;
     color: #ffffff;
 }
@@ -36,4 +49,58 @@
 .list-items {
     list-style-type: none;
     font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+/* Banner Started */
+
+.banner {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 130px;
+}
+
+.banner-headline {
+    font-family: "Inter", sans-serif;
+    font-size: 4.87rem;
+    color: #ffffff;
+}
+
+.banner-first-section {
+    width: 520px;
+}
+
+.miama-font {
+    font-family: Miama;
+}
+
+.banner-paragraph {
+    font-family: "Inter", sans-serif;
+}
+
+/* These are the common button you use all the website */
+
+.common-button{
+    background-color: #E6533C;
+    border: 1px solid #E6533C;
+    border-radius: 30px;
+    color: white;
+    padding: 0 40px;
+    font-family: "Inter", sans-serif;
+}
+
+.btn-modify {
+    padding: 23px;
+}
+
+.secondary-button {
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.banner-image {
+    width: 350px;
+    height: 580px;
+    margin-left: 89px;
 }
