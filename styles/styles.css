@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container-nav{
+    /* border: 1px solid orangered; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 130px;
+}
+
+.main-logo {
+    color: #E6533C;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.25rem;
+}
+
+.nav-items-container{
+    margin: 20px 0;
+}
+
+.list-container {
+    display: flex;
+    gap: 20px;
+}
+
+.individual-list-button {
+    background-color: #E6533C;
+    border-radius: 13px;
+    /* padding: 7px; */
+    padding: 0 14px;
+    color: #ffffff;
+}
+
+.list-items {
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+}
